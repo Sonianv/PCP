@@ -1,0 +1,94 @@
+`define BRZ	0
+`define BRN	1
+`define BRC	2
+`define BRO	3
+`define BRA	4
+`define JMP	5
+`define RET	6
+`define LDR	7
+`define STR	8
+`define ADDXY	9
+`define SUBXY	10
+`define LSRXY	11
+`define LSLXY	12
+`define RSRXY	13
+`define RSLXY	14
+`define MULXY	15
+`define DIVXY	16
+`define MODXY	17
+`define ANDXY	18
+`define ORXY	19
+`define XORXY	20
+`define CMPXY	21
+`define TSTXY	22
+`define NOTXY	23
+`define ADDXY	24
+`define SUBXY	25
+`define LSRXY	26
+`define LSLXY	27
+`define RSRXY	28
+`define RSLXY	29
+`define MULXY	30
+`define DIVXY	31
+`define MODXY	32
+`define ANDXY	33
+`define ORXY	34
+`define XORXY	35
+`define CMPXY	36
+`define TSTXY	37
+`define NOTXY	38
+`define INC	39
+`define DEC	40
+`define MOV	41
+`define PSH R	60
+`define POP R	61
+`define NOP	62
+`define HLT	63
+
+
+
+
+`define ADDRI  		32
+`define ADDAI  		33
+`define ADDXY  		34
+`define ADDRA  		35
+
+`define SUBRI 			36
+`define SUBAI 			37
+`define SUBXY 			38
+`define SUBRA 			39
+
+`define SHIFT 			40
+
+`define INC  			42
+`define DEC  			43
+
+`define MULRA 			44
+`define MULAI 			45
+
+`define DIVRA	 		46
+`define DIVAI  		47
+
+`define MODRA  		48
+`define MODAI  		49
+
+`define ANDRA  		50
+`define ANDAI  		51
+
+`define ORRA  			52
+`define ORAI  			53
+
+`define XORRA  		54
+`define XORAI  		55
+
+`define NOT  			56
+`define NEG  			57
+
+`define CMPRI  		58
+`define CMPAI  		59
+`define CMPRR  		60
+
+
+`define TSTRI  		61
+`define TSTAI  		62
+`define TSTRR  		63
