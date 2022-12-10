@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,55 @@ z2
 !i10f 100
 cModel Technology
 d/home/mariusp/intelFPGA/20.1/modelsim_ase/bin
+vControl_Unit
+Z0 !s110 1670675328
+!i10b 1
+!s100 eJ>2lN@i2PeEVIN_:JT:R3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhIR^FQg?4l6Z^S_7oFc<c0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo
+w1670675072
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
+Z4 Fopcodes.v
+Z5 Falu_ops.v
+!i122 16
+L0 22 636
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1670675328.000000
+!s107 alu_ops.v|opcodes.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@control_@unit
+vControl_Unit_tb
+R0
+!i10b 1
+!s100 ]MO;bTGC8]c<FLYVm_2660
+R1
+I:RF93RQ<iE`_Oc9G:BRTH3
+R2
+R3
+w1670675324
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v
+R4
+R5
+!i122 17
+L0 21 150
+R6
+r1
+!s85 0
+31
+R7
+!s107 alu_ops.v|opcodes.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v|
+!i113 1
+R8
+R9
+n@control_@unit_tb
