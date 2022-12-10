@@ -1,14 +1,1 @@
-/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/opcodes.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/opcodes.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 
-} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/alu_ops.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/alu_ops.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-
-} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Control_Unit
-
-Top level modules:
-	Control_Unit
-
-} {} {}}
