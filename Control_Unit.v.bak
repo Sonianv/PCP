@@ -21,7 +21,7 @@
 
 module Control_Unit(
 	input [5:0]opcode,
-	input clk, rst,
+	input clk, rst, CU_en,
 	input [3:0]flags,
 	output reg [4:0]alu_op,
 	output reg immediate, bra, RD, WR, alu_en, psh, pop, hlt, mov_en
@@ -35,8 +35,19 @@ module Control_Unit(
 `define C	1
 `define O	0
 
-always @(*) begin
-
+always @(posedge clk) begin
+  if (rst != 0) begin
+    		bra = 0;
+		immediate = 0;
+		alu_en = 0;
+		RD = 0;
+		WR = 0;
+		psh = 0;
+		pop = 0;
+		hlt = 0;
+		mov_en = 0;
+	end
+	else begin
   case(opcode)
 	`BRA: begin 
 		bra = 1;
@@ -105,7 +116,7 @@ always @(*) begin
 		mov_en = 0;
 	end
 	`RET: begin
-		bra = 1;
+     bra = 1;
 		immediate = 0;
 		alu_en = 0;
 		RD = 0;
@@ -555,7 +566,7 @@ always @(*) begin
 	end
 	`POP: begin
 		bra = 0;
-		immediate = 1;
+		immediate = 0;
 		alu_en = 0;
 		RD = 0;
 		WR = 0;
@@ -587,13 +598,11 @@ always @(*) begin
 		mov_en = 0;
 	end
   endcase
+end
 
 end
 
 endmodule
-
-
-
 
 
 

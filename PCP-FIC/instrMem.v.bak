@@ -1,0 +1,22 @@
+module instrMem #(parameter N=16)(
+	input clk, rst,
+	input [N-1:0] PC,
+	output reg [15:0] data
+);
+	reg [15:0] memory [0:(2**N)-1];
+	
+  initial begin
+	      $readmemh("C:\Users\ioana\Desktop\PCP-FIC\instructions.mem", memory);
+
+	end
+
+
+   always @(posedge clk) begin
+		if(rst) begin
+			data <= memory[0];
+		end else
+			data <= memory[PC];
+	end
+		
+		
+endmodule

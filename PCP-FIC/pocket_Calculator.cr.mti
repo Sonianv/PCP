@@ -1,0 +1,105 @@
+C:/Users/ioana/Desktop/PCP-FIC/dataMem.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/dataMem.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module dataMem
+
+Top level modules:
+	dataMem
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/ALU.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/ALU.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/mux2_1tb.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/mux2_1tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux2_1tb
+
+Top level modules:
+	mux2_1tb
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/SEU_tb.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/SEU_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module SEU_tb
+
+Top level modules:
+	SEU_tb
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/SEU.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/SEU.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module SEU
+
+Top level modules:
+	SEU
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/instrMem.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/instrMem.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module instrMem
+
+Top level modules:
+	instrMem
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/ALU_tb.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/ALU_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/processor.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/processor.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/rgst.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/rgst.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module rgst
+
+Top level modules:
+	rgst
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/Control_Unit.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/Control_Unit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/mov.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/mov.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module movR
+
+Top level modules:
+	movR
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/alu_ops.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/alu_ops.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/mux2_1.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/mux2_1.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/processor_tb.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/processor_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module processor_tb
+
+Top level modules:
+	processor_tb
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/Control_Unit_tb.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/Control_Unit_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module Control_Unit_tb
+
+Top level modules:
+	Control_Unit_tb
+
+} {} {}} C:/Users/ioana/Desktop/PCP-FIC/opcodes.v {1 {vlog -work work -nocovercells C:/Users/ioana/Desktop/PCP-FIC/opcodes.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+
+} {} {}}

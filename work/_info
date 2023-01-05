@@ -9,55 +9,456 @@ z2
 !i10f 100
 cModel Technology
 d/home/mariusp/intelFPGA/20.1/modelsim_ase/bin
-vControl_Unit
-Z0 !s110 1670875252
+vALU
+Z0 !s110 1671179264
 !i10b 1
-!s100 eJ>2lN@i2PeEVIN_:JT:R3
+!s100 OBQTiZZh6nkFQ>_NWRd5l3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IhIR^FQg?4l6Z^S_7oFc<c0
+I9M2XjIkic7c;VJV7VO3TI0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 d/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo
-Z4 w1670675544
-8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
-F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
-Z5 Fopcodes.v
-Z6 Falu_ops.v
-!i122 18
-L0 22 636
-Z7 OV;L;2020.1;71
+w1670876385
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU.v
+Z4 Falu_ops.v
+!i122 834
+L0 15 128
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1670875252.000000
+Z6 !s108 1671179264.000000
+!s107 alu_ops.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+!i10b 1
+!s100 =bJ<zEEMQ7IZUNSZbngK52
+R1
+IGeI1LZM8Y>mZ3mbgimzfL2
+R2
+R3
+w1670876357
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU_tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU_tb.v
+R4
+!i122 835
+L0 14 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 alu_ops.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ALU_tb.v|
+!i113 1
+R7
+R8
+n@a@l@u_tb
+vControl_Unit
+R0
+!i10b 1
+!s100 KZoN87jKHl6c428^_3Meh1
+R1
+IkM1`A:mnmhPC63G6Db9G81
+R2
+R3
+w1671119858
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v
+Z9 Fopcodes.v
+R4
+!i122 832
+L0 22 648
+R5
+r1
+!s85 0
+31
+!s108 1671179263.000000
 !s107 alu_ops.v|opcodes.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit.v|
 !i113 1
-Z9 o-work work
-Z10 tCvgOpt 0
+R7
+R8
 n@control_@unit
 vControl_Unit_tb
 R0
 !i10b 1
-!s100 ]MO;bTGC8]c<FLYVm_2660
+!s100 m;<GF1gRM_9GYcOBBhNYB2
 R1
-I:RF93RQ<iE`_Oc9G:BRTH3
+IdTDFA;KejkC31JFA;J8id0
 R2
 R3
-R4
+w1670876345
 8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v
 F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v
+R9
+R4
+!i122 833
+L0 13 150
 R5
-R6
-!i122 19
-L0 21 150
-R7
 r1
 !s85 0
 31
-R8
+R6
 !s107 alu_ops.v|opcodes.v|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/Control_Unit_tb.v|
 !i113 1
-R9
-R10
+R7
+R8
 n@control_@unit_tb
+vcpu
+R0
+!i10b 1
+!s100 EI[l>MC=iRISl0TV?Pl?23
+R1
+IYOiS_TjMC=;JDl?@<TET^1
+R2
+R3
+w1671122079
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu.v
+!i122 848
+L0 2 75
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu.v|
+!i113 1
+R7
+R8
+vcpu_tb
+R0
+!i10b 1
+!s100 ^c]YAfJnXF1emNhK@akSA3
+R1
+IC;Co<0WJUT8?;5j7MG`]j0
+R2
+R3
+w1671179257
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v
+!i122 849
+L0 2 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v|
+!i113 1
+R7
+R8
+vdataMem
+R0
+!i10b 1
+!s100 D9]DRmTH[CD07m?d3Z3Hn0
+R1
+I`N=KA6Zm_SLc15JJd`LB`3
+R2
+R3
+w1670877173
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/dataMem.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/dataMem.v
+!i122 836
+L0 13 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/dataMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/dataMem.v|
+!i113 1
+R7
+R8
+ndata@mem
+vdemux
+R0
+!i10b 1
+!s100 CJ6gkT7]obae]ZIOSN2ok2
+R1
+IbLbPXMDX?KPe3QB2C[gW53
+R2
+R3
+w1670876389
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/demux.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/demux.v
+!i122 837
+L0 13 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/demux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/demux.v|
+!i113 1
+R7
+R8
+vff
+R0
+!i10b 1
+!s100 _Z?N6OR;`Uj=SThAVRAiQ0
+R1
+IN?0Gb6IlEZoF[3lX^C8R81
+R2
+R3
+w1670937396
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ff.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ff.v
+!i122 847
+Z10 L0 14 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/ff.v|
+!i113 1
+R7
+R8
+vinstrMem
+R0
+!i10b 1
+!s100 c?lI<gKn`l4S6a@B@f^fN1
+R1
+IVZKmaDEEAbX7iJP@1mVaH0
+R2
+R3
+w1671121560
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/instrMem.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/instrMem.v
+!i122 838
+L0 13 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/instrMem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/instrMem.v|
+!i113 1
+R7
+R8
+ninstr@mem
+vmovR
+R0
+!i10b 1
+!s100 l@6USzSNz:PT;Em4jMePF3
+R1
+IcEZ]KZ11J5>hPAzbVD0HD0
+R2
+R3
+w1670876475
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v
+!i122 839
+L0 13 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v|
+!i113 1
+R7
+R8
+nmov@r
+vmux2_1
+R0
+!i10b 1
+!s100 0b:UIhkNN2Xe^P?KiYOY72
+R1
+IP_MLY^E_cCdNeKXJ<Be6L1
+R2
+R3
+w1670931029
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1.v
+!i122 840
+L0 13 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1.v|
+!i113 1
+R7
+R8
+vmux2_1tb
+R0
+!i10b 1
+!s100 Wh`d41H``2gb638HY:5BD1
+R1
+IiKhF1?noM<hE;0^Z^VNVO3
+R2
+R3
+w1670876481
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v
+!i122 841
+L0 13 32
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v|
+!i113 1
+R7
+R8
+vPC_INC
+!s110 1670938447
+!i10b 1
+!s100 ^kkPYRW?46TfUGMjbOIM>0
+R1
+IRDQnTS7435dmnH@8@9WIG0
+R2
+R3
+w1670930757
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/PC_INC.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/PC_INC.v
+!i122 376
+L0 3 16
+R5
+r1
+!s85 0
+31
+!s108 1670938447.000000
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/PC_INC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/PC_INC.v|
+!i113 1
+R7
+R8
+n@p@c_@i@n@c
+vprocessor
+R0
+!i10b 1
+!s100 gz:U7Xb=JA4K2:nRSTkLP2
+R1
+I]8^InRZ4?cU4]_=>8_Vn33
+R2
+R3
+w1671100355
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v
+!i122 842
+L0 3 31
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v|
+!i113 1
+R7
+R8
+vprocessor_tb
+R0
+!i10b 1
+!s100 [KCU>>OfXfYQBD]a;d3G62
+R1
+IEMF@]mA2ifOWa@Im9W^`n3
+R2
+R3
+w1670928754
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor_tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor_tb.v
+!i122 843
+L0 3 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor_tb.v|
+!i113 1
+R7
+R8
+vrgst
+R0
+!i10b 1
+!s100 QXXN5V=oG29?6zlUBC9i23
+R1
+ILeZF5;Imj_7V2BUMk<G@J1
+R2
+R3
+w1670934085
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/rgst.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/rgst.v
+!i122 844
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/rgst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/rgst.v|
+!i113 1
+R7
+R8
+vSEU
+R0
+!i10b 1
+!s100 _VRGZA66SjUJhkWmogBZ^3
+R1
+Ie[XLe=f:KTPaZ2MU]TA8G1
+R2
+R3
+w1670876452
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v
+!i122 845
+L0 13 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v|
+!i113 1
+R7
+R8
+n@s@e@u
+vSEU_tb
+R0
+!i10b 1
+!s100 YDVhFne_X^ZcnQC21fP7F3
+R1
+IO`?5zakQbSNKI`T;3[2]h0
+R2
+R3
+w1670876469
+8/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v
+F/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v
+!i122 846
+L0 13 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v|
+!i113 1
+R7
+R8
+n@s@e@u_tb

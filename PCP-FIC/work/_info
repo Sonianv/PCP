@@ -1,0 +1,258 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\ioana\Desktop
+vALU
+IB1gd;`RloeQEPW>2CCC0Q0
+VjQAJ2bCfiR5<j_;3RjA;R1
+Z0 dC:\Users\ioana\Desktop\PCP-FIC
+w1670851211
+8C:/Users/ioana/Desktop/PCP-FIC/ALU.v
+FC:/Users/ioana/Desktop/PCP-FIC/ALU.v
+L0 3
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+n@a@l@u
+!s100 6MhY?987UZTzfX16OkfB[2
+!s85 0
+!s101 -O0
+vALU_tb
+ISRD`[GOH1kk@E<cL3>iMF2
+VPW;1SfR0JD`OH^:oPA3K92
+Z4 dC:\Users\ioana\Desktop\PCP-FIC
+w1670842700
+8C:/Users/ioana/Desktop/PCP-FIC/ALU_tb.v
+FC:/Users/ioana/Desktop/PCP-FIC/ALU_tb.v
+L0 3
+R1
+r1
+31
+R2
+R3
+n@a@l@u_tb
+!s100 <kHhzXZCnBOfKn[dbACTF1
+!s85 0
+!s101 -O0
+vControl_Unit
+IDBX6KHkoRo3]UA0`0ZKmS2
+V^]U3m5oI0d^`5GmA<Rn5D3
+R4
+w1670842885
+8C:/Users/ioana/Desktop/PCP-FIC/Control_Unit.v
+FC:/Users/ioana/Desktop/PCP-FIC/Control_Unit.v
+Z5 Fopcodes.v
+Z6 Falu_ops.v
+L0 22
+R1
+r1
+31
+R2
+R3
+n@control_@unit
+!s100 VFmA==K8;k;BfKRUUlT>M1
+!s85 0
+!s101 -O0
+vControl_Unit_tb
+IG:Xaa19T[a3f39c1WUkWP1
+VTCc@HY9IjD@Bn;Zh;PMaK3
+R4
+w1670843667
+8C:/Users/ioana/Desktop/PCP-FIC/Control_Unit_tb.v
+FC:/Users/ioana/Desktop/PCP-FIC/Control_Unit_tb.v
+R5
+R6
+L0 21
+R1
+r1
+31
+R2
+R3
+n@control_@unit_tb
+!s100 DlX0XzOYWz?>5Rkickn8d2
+!s85 0
+!s101 -O0
+vdataMem
+IP57O`4b;SS`5bTJ@GMH1@1
+V<n[;@1fM8h_<lb@Gj[L?R0
+R4
+w1670850150
+8C:/Users/ioana/Desktop/PCP-FIC/dataMem.v
+FC:/Users/ioana/Desktop/PCP-FIC/dataMem.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ndata@mem
+!s100 9zH01oCbH5A5oI:>z:lel1
+!s85 0
+!s101 -O0
+vdemux
+!s100 96fPz@^X6UkgU_nXZn`_<2
+IBAIzPCk^Wj?3HhFf9TGYV2
+VGV_dN519C]1H0a0Fb`X:j1
+R4
+w1670855256
+8C:/Users/ioana/Desktop/PCP-FIC/demux.v
+FC:/Users/ioana/Desktop/PCP-FIC/demux.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+vinstrMem
+IMX>4_YhgM7OnSMQcZNIkA2
+VU1hhHnfX42hVNNJF:Mkzb1
+R4
+w1670849893
+8C:/Users/ioana/Desktop/PCP-FIC/instrMem.v
+FC:/Users/ioana/Desktop/PCP-FIC/instrMem.v
+L0 1
+R1
+r1
+31
+R2
+R3
+ninstr@mem
+!s100 U22J<91E=4@eACb0`=G_F0
+!s85 0
+!s101 -O0
+vmovR
+IoC9NcfN0V1EUg07nP=?W>3
+Vl_JS0GhQNW6=94L>F;W_Q1
+R4
+w1670854022
+8C:/Users/ioana/Desktop/PCP-FIC/mov.v
+FC:/Users/ioana/Desktop/PCP-FIC/mov.v
+L0 1
+R1
+r1
+31
+R2
+R3
+nmov@r
+!s100 IPhe`f9<g1ZkJEi<=h^dO1
+!s85 0
+!s101 -O0
+vmux2_1
+I[JKe7653j4E<6^e3iiZ]j3
+Vc3CaF5M>;oQ@najGz328J0
+R4
+w1670847326
+8C:/Users/ioana/Desktop/PCP-FIC/mux2_1.v
+FC:/Users/ioana/Desktop/PCP-FIC/mux2_1.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 S>MUmVXc4@bD?_L[W]lnS3
+!s85 0
+!s101 -O0
+vmux2_1tb
+I6TIYRgG2ZE6_;CURV1;@b3
+VYP45KVU_S3Bi@CjUZ^_Ai3
+R4
+w1670840926
+8C:/Users/ioana/Desktop/PCP-FIC/mux2_1tb.v
+FC:/Users/ioana/Desktop/PCP-FIC/mux2_1tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 D1_LcCT:@0P8P>C_@od752
+!s85 0
+!s101 -O0
+vprocessor
+IH^S;]=B4M9E2hWBXgK1KB1
+V8gh;A`jPKL46J3_M<DIDo1
+R4
+w1670848004
+8C:/Users/ioana/Desktop/PCP-FIC/processor.v
+FC:/Users/ioana/Desktop/PCP-FIC/processor.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 GCM8V<J]AGdDb;YYm4==92
+!s85 0
+!s101 -O0
+vprocessor_tb
+I0Ga`H?EL4ADLM1?6_MK9Q3
+VJ2C3GD8Rg?n@J?jlC@PHD3
+R4
+w1670847312
+8C:/Users/ioana/Desktop/PCP-FIC/processor_tb.v
+FC:/Users/ioana/Desktop/PCP-FIC/processor_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 ^F8=KnH;OAOZBPDZfRl6>2
+!s85 0
+!s101 -O0
+vrgst
+I?ETf?:[GnSAgQ7gk4DImN1
+VSZ<01m<Qf1PllX0oE@ZZ73
+R4
+w1670847967
+8C:/Users/ioana/Desktop/PCP-FIC/rgst.v
+FC:/Users/ioana/Desktop/PCP-FIC/rgst.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 Jbo6GG@m_NQ>R[RX<QQYo3
+!s85 0
+!s101 -O0
+vSEU
+IOQ<o_aQh]mWc:<NkVGQDG0
+VGA2jL[nQEE>`5jE`]9PME0
+R4
+w1670842976
+8C:/Users/ioana/Desktop/PCP-FIC/SEU.v
+FC:/Users/ioana/Desktop/PCP-FIC/SEU.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@s@e@u
+!s100 :kNQd6NhdTHLcdF_8jn>g2
+!s85 0
+!s101 -O0
+vSEU_tb
+I4=fYTD1e?Fl?:BSkB;Pzh0
+V2Id0eTVccXbUbd[mMh0A22
+R4
+w1670843547
+8C:/Users/ioana/Desktop/PCP-FIC/SEU_tb.v
+FC:/Users/ioana/Desktop/PCP-FIC/SEU_tb.v
+L0 1
+R1
+r1
+31
+R2
+R3
+n@s@e@u_tb
+!s100 A22E3UGDdbmH4H7BNjKLR0
+!s85 0
+!s101 -O0

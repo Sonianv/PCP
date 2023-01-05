@@ -1,20 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Team: 
+// Member: 
 // 
 // Create Date:    13:38 10/12/2022 
-// Design Name: 
 // Module Name:    Control_Unit 
 // Project Name:   Pocket_Calculator_Processor
-// Target Devices: 
-// Tool versions: 
-// Description: 
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////

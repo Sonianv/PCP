@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Team: 
+// Member: 
 // 
 // Create Date:    13:38 10/12/2022 
 // Design Name: 
@@ -53,7 +53,7 @@ initial begin
 end
 
 initial begin
-  	flags = 4'b1011;
+  	flags = 4'b1010;
   	#30 opcode = `BRZ;
 	#50 opcode = `BRN;
 	#50 opcode = `BRC;
