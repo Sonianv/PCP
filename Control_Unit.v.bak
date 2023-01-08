@@ -20,11 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module Control_Unit(
-	input [5:0]opcode,
+	input [15:0]IR,
 	input clk, rst, CU_en,
 	input [3:0]flags,
 	output reg [4:0]alu_op,
-	output reg immediate, bra, RD, WR, alu_en, psh, pop, hlt, mov_en
+	output reg immediate, bra, RD, WR, alu_en, psh, pop, hlt, mov_en,
+	output reg [8:0]imm_value,
+	output reg ir9sel, ir0sel,
+	output reg [9:0]BADR
     );
 
 `include "opcodes.v"
@@ -36,6 +39,10 @@ module Control_Unit(
 `define O	0
 
 always @(posedge clk) begin
+  imm_value = IR[8:0];
+  ir9sel = IR[9];
+  ir0sel = IR[0];
+  BADR = IR[9:0]
   if (rst != 0) begin
     		bra = 0;
 		immediate = 0;
@@ -47,8 +54,8 @@ always @(posedge clk) begin
 		hlt = 0;
 		mov_en = 0;
 	end
-	else begin
-  case(opcode)
+	else if(CU_en == 1'b1) begin
+  case(IR[15:10])
 	`BRA: begin 
 		bra = 1;
 		immediate = 0;

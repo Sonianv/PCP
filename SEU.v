@@ -12,10 +12,11 @@
 
 module SEU( 
  input [8:0]NR,
- input enable,
+ //input enable,
  output reg [15:0]result   
  );
  
+/*
  reg [7:0]aux;
  reg [15:0]buff;
  
@@ -35,4 +36,9 @@ begin
     else result = 16'd0;
     end
 end
-endmodule
+endmodule */
+
+
+assign result = NR[8] ? ((NR[7:0] != 0) ? ({8'b11111111,~NR[7:0]} + 1) : 16'd0) : {8'd0, NR[7:0]};
+
+endmodule 

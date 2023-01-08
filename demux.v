@@ -16,6 +16,7 @@ module demux(
     output reg [15:0] data_out0,
     output reg [15:0] data_out1
 );
+
 always @(*)begin
   if(en)begin
     if(sel == 0) 

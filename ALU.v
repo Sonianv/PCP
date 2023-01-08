@@ -16,7 +16,7 @@ module ALU(
  input  [15:0] A, // reg 
  input  [15:0] B, // reg sau immediate
  input  enable,
- input  [5:0]opcode, 
+ input  [4:0]opcode, 
  
  output reg [15:0] Result,  
  output reg [ 3:0] flags

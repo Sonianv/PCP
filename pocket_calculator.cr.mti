@@ -71,13 +71,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux2_1
 
-} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module cpu_tb
-
-Top level modules:
-	cpu_tb
-
 } {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module SEU
@@ -91,6 +84,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	processor_tb
+
+} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/cpu_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
 
 } {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/processor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -106,12 +106,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	cpu
 
-} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v
+} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module movR
+-- Compiling module SEU_tb
 
 Top level modules:
-	movR
+	SEU_tb
 
 } {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mux2_1tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -120,12 +120,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux2_1tb
 
-} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/SEU_tb.v
+} {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/mov.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module SEU_tb
+-- Compiling module mov
 
 Top level modules:
-	SEU_tb
+	mov
 
 } {} {}} /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/alu_ops.v {1 {vlog -work work -stats=none /home/mariusp/Desktop/An_3_Faculta/FIC/risc_processor/git_repo/alu_ops.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

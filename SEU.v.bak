@@ -1,29 +1,22 @@
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Team: 
+// Member: 
 // 
 // Create Date:    13:38 10/12/2022 
-// Design Name: 
 // Module Name:    Control_Unit 
 // Project Name:   Pocket_Calculator_Processor
-// Target Devices: 
-// Tool versions: 
-// Description: 
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
 
 module SEU( 
  input [8:0]NR,
- input enable,
+ //input enable,
  output reg [15:0]result   
  );
  
+/*
  reg [7:0]aux;
  reg [15:0]buff;
  
@@ -43,4 +36,9 @@ begin
     else result = 16'd0;
     end
 end
-endmodule
+endmodule */
+
+
+assign result = NR[8] ? {8'd0, NR[7:0]} : (NR[7:0] != 0 ? ({8'b11111111,~NR[7:0]} + 1) : 16'd0);
+
+endmodule 
